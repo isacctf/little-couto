@@ -70,7 +70,7 @@ header
   display: inline-block;
   width: 220px;
   left: -220px;
-  bottom: 200px;
+  bottom: 100px;
   top: 30px;
   border-radius: 10px;
   box-shadow: 3px 3px 3px 3px rgba(34, 167, 240, 1);
@@ -241,7 +241,6 @@ iframe
 
 #coutinho
 {
-
   border: 1px solid rgba(100, 100, 100);
   border-radius: 50px;
   width: 250px;
@@ -251,8 +250,27 @@ iframe
   margin-right: auto;
   text-align: center;
   color: rgba(225, 225, 225);
-  box-shadow: 3px 3px 3px 3px rgba(34, 167, 240, 1);
+  box-shadow: 3px 3px 1px 1px rgba(34, 167, 240, 1);
+  font-family: 'Fredericka the Great', cursive;
 }
+
+table
+{
+  position: absolute;
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+  box-shadow: 2px 2px 1px 1px rgba(34, 167, 240, 1);
+  opacity: 0.8;
+  visibility: hidden;
+}
+
+table td
+{
+  text-decoration: underline;
+}
+
+
 
 .hashtag
 {
@@ -262,4 +280,125 @@ iframe
 #menu-image
 {
   margin-bottom: 40px;
+}
+
+#coutinho:hover
+{
+  position: relative;
+  left: -2px;
+  top: -2px;
+  cursor: alias;
+  color: rgba(52, 152, 219, 1);
+  box-shadow: 5px 5px 1px 1px rgba(34, 167, 240, 1);
+}
+
+
+#link
+{
+  width: 7em;
+  position: fixed;
+  left: -2em;
+}
+
+#stundets
+{
+    border: 1px solid rgba(100, 100, 100);
+    border-radius: 50px;
+    width: 250px;
+    background-color: #10171e;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgba(225, 225, 225);
+    box-shadow: 3px 3px 3px 3px rgba(34, 167, 240, 1);
+    font-family: 'Fredericka the Great', cursive;
+}
+
+#stundets:hover
+{
+  position: relative;
+  left: -2px;
+  top: -2px;
+  cursor: alias;
+  color: rgba(52, 152, 219, 1);
+  box-shadow: 5px 5px 1px 1px rgba(34, 167, 240, 1);
+}
+
+#menu-image
+{
+  margin-bottom: 40px;
+}
+
+#banners
+{
+  display: block;
+  width: 989px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid rgba(200, 200, 200);
+  border-left: 1px solid rgba(200, 200, 200);
+  border-right: 1px solid rgba(200, 200, 200);
+}
+
+#A_isa
+{
+  border-radius: 50%;
+  width: 10%;
+  margin: 50px;
+  display: block;
+  position: absolute;
+  top: 350px;
+  left: 190px;
+  border: 5px solid rgba(195, 195, 195);
+}
+
+#_lets
+{
+  border-radius: 50%;
+  width: 10%;
+  margin: 50px;
+  display: block;
+  position: absolute;
+  top: 848px;
+  left: 190px;
+  border: 5px solid rgba(195, 195, 195);
+}
+
+#_marcos
+{
+  border-radius: 50%;
+  width: 10%;
+  margin: 50px;
+  display: block;
+  position: absolute;
+  top: 1420px;
+  left: 190px;
+  border: 5px solid rgba(195, 195, 195);
+}
+
+#perfis h1
+{
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#perfis h2
+{
+  margin-left: 3%;
+  margin-top: -5%;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+#perfis p
+{
+  margin-left: 5%;
+  margin-top: 2%;
+  font-weight: normal;
+}
+
+#frase
+{
+  font-size: 20px;
 }
